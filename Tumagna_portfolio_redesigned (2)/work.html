@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Work | Alfred Tumagna</title>
+  <meta name="description" content="Selected projects by Alfred Tumagna." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css.css" />
+</head>
+<body>
+
+  <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" />
+
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Alfred Tumagna</a>
+
+      <label for="nav-toggle" class="nav-burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="work.html">My Work</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <div class="section-inner">
+        <p class="page-eyebrow">Selected Work</p>
+        <h1 class="page-title">My Work</h1>
+        <p class="page-lead">Projects built to solve real problems for real communities.</p>
+      </div>
+    </div>
+
+    <section class="work">
+      <div class="section-inner">
+        <div class="projects-list">
+
+          <!-- Project 1 -->
+          <article class="project-row">
+            <div class="project-mark" aria-hidden="true">
+              <span class="corner corner-tl"></span>
+              <span class="corner corner-tr"></span>
+              <span class="corner corner-bl"></span>
+              <span class="corner corner-br"></span>
+              <img src="community service.jpg" alt="Community Service Mobile Application screenshot" class="project-img" />
+              <span class="project-num">P.01</span>
+            </div>
+            <div class="project-body">
+              <span class="project-tag">Flutter &middot; Mobile App</span>
+              <h3>Community Service Mobile Application</h3>
+              <p>
+                A Flutter-based mobile application that allows citizens to submit
+                complaints, request community services, and receive updates from
+                local government units.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-row">
+            <div class="project-mark" aria-hidden="true">
+              <span class="corner corner-tl"></span>
+              <span class="corner corner-tr"></span>
+              <span class="corner corner-bl"></span>
+              <span class="corner corner-br"></span>
+              <img src="nav.jpg" alt="TCGC Navigation System thesis documentation cover" class="project-img" />
+              <span class="project-num">P.02</span>
+            </div>
+            <div class="project-body">
+              <span class="project-tag project-tag--ongoing">Ongoing Thesis</span>
+              <h3>TCGC Navigation System</h3>
+              <p>
+                An ongoing thesis project that helps students and visitors navigate
+                the Tangub City Global College campus using an interactive mobile
+                navigation system.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-row">
+            <div class="project-mark" aria-hidden="true">
+              <span class="corner corner-tl"></span>
+              <span class="corner corner-tr"></span>
+              <span class="corner corner-bl"></span>
+              <span class="corner corner-br"></span>
+              <img src="boarding house.jpg" alt="Mobile Boarding House Management System invoice screen" class="project-img" />
+              <span class="project-num">P.03</span>
+            </div>
+            <div class="project-body">
+              <span class="project-tag">Flutter &middot; SaaS</span>
+              <h3>Mobile Boarding House Management System</h3>
+              <p>A mobile application designed for boarding house management with features such as:</p>
+              <ul class="feature-list">
+                <li>Parent Monitoring</li>
+                <li>Tenant Tracking</li>
+                <li>Visitor Monitoring</li>
+                <li>Billing Management</li>
+                <li>Notifications</li>
+                <li>Security Monitoring</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Alfred Tumagna. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
